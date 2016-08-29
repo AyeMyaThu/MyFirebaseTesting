@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edtage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="60dp"
+        android:hint="@string/age"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/edtgender"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edtage"
+        android:layout_alignRight="@+id/edtage"
+        android:layout_alignStart="@+id/edtage"
+        android:layout_below="@+id/edtage"
+        android:layout_marginTop="35dp"
+        android:hint="@string/gender"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/edttownship"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edtgender"
+        android:layout_alignStart="@+id/edtgender"
+        android:layout_below="@+id/edtgender"
+        android:layout_marginTop="35dp"
+        android:hint="@string/township"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/edtjob"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edttownship"
+        android:layout_alignStart="@+id/edttownship"
+        android:layout_below="@+id/edttownship"
+        android:layout_marginTop="35dp"
+        android:hint="@string/job"
+        android:padding="5dp" />
+
+    <Button
+        android:id="@+id/btnnext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
+        android:backgroundTint="#ff039be5"
+        android:text="@string/next"/>
+
+</RelativeLayout>

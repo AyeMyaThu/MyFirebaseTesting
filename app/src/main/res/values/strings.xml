@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MyFirebaseTesting</string>
+    <string name="age">အသက္</string>
+    <string name="gender">က်ား/မ</string>
+    <string name="township">ျမနိဳ.နယ္</string>
+    <string name="job">အလုုပ္အကိုုင္</string>
+    <string name="name">အမည္္</string>
+    <string name="nrc">မွတ္ပံုုတင္</string>
+    <string name="mail">ေမးလ္</string>
+    <string name="psw">လ်ိဳ.ွ၀ွက္နံပါတ္</string>
+    <string name="psw_again">ျန္ထည.္ရန္</string>
+    <string name="next">ေနာက္သိုု.</string>
+    <string name="register">၀င္ေရာက္မည္</string>
+</resources>
